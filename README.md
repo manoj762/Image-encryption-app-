@@ -28,6 +28,7 @@ This project is a simple image encryption application built with Node.js, Expres
     node server.js
     ```
 2. **go to web browser**
+ http://localhost:3000  
    
 
 3. **Upload an Image for Encryption**
