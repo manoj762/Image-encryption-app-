@@ -18,7 +18,11 @@ This project is a simple image encryption application built with Node.js, Expres
 
 2. **Install dependencies**
     ```bash
-    npm install
+    npm install crypto
+    npm install fs
+    or
+    npm install crypto-js
+
     ```
 
 ## Usage
