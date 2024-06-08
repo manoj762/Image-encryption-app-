@@ -27,13 +27,15 @@ This project is a simple image encryption application built with Node.js, Expres
     ```bash
     node server.js
     ```
+2. **go to web browser**
+   
 
-2. **Upload an Image for Encryption**
+3. **Upload an Image for Encryption**
     - Endpoint: `POST /upload`
     - Form Data: `image` (type: file)
     - Response: The encrypted image is saved on the server, and a secure key is provided in the response.
 
-3. **Decrypt an Image**
+4. **Decrypt an Image**
     - Endpoint: `POST /decrypt`
     - Form Data: 
       - `encryptedImage` (type: file)
